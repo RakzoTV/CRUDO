@@ -1,4 +1,4 @@
-package com.universidad.dto;
+package com.inventarios.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class MateriaDTO {
+public class CategoriaDTO {
     private Long id;
-    private String nombreMateria;
-    private String codigoUnico;
-    private Integer creditos;
+    private String nombre;
 }
